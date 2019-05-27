@@ -78,3 +78,11 @@ header span{
 	position: absolute;
 	margin-left: 10px;
 }
+header img{
+	text-align: left;
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	position: absolute;
+	margin-left: 5px;
+}

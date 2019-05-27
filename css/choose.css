@@ -14,9 +14,10 @@
     overflow: hidden;
     margin: 10px auto;
     display: block;
-    background-color: dodgerblue;
+    background-color: white;
     border-radius: 8px;
     height: 50px;
+    box-shadow: 0 0 10px #8c8a8873;
 }
 .box .yewuul ul li a{
     width: 100%;
@@ -25,7 +26,7 @@
     width: 40px;
     height: 40px;
     float: left;
-    filter: grayscale(50%);
+    filter: drop-shadow(2px 2px dodgerblue);
     margin-top: 5px;
     margin-left: 5px;
 
@@ -34,7 +35,7 @@
     width: auto;
     font-size: 2.5em;
     font-weight: bold;
-    color: white;
+    color: dodgerblue;
     line-height: 50px;
     text-align: center;
 }
