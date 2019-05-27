@@ -8,23 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/layer.js"></script>
-    <title>登录</title>
+    <title>找回密码</title>
 </head>
 <body>
-<header><img onClick="javascript:history.back(-1);" src="img/fanhui.png"><p>登录</p></header>
+<header><img onClick="javascript:history.back(-1);" src="img/fanhui.png"><p>找回密码</p></header>
 
 <div class="box">
-    <div class="box_header">用户登录</div>
-    <div class="box_choose">
-        <div class="choose_left" onclick="choosetype('geren');"><img src="https://apply.hnjdctk.gov.cn/apply/myimages/s_ico20.png"><p>个人用户</p></div>
-        <div class="choose_right" onclick="choosetype('qiye');"><img src="https://apply.hnjdctk.gov.cn/apply/myimages/s_ico21.png"><p>企业用户</p></div>
-    </div>
+    <div class="box_header"><p id="title">找回密码</p></div>
+    <input id="id" placeholder="证件号">
     <input id="phone" placeholder="输入手机号">
-    <input id="password" placeholder="输入密码">
-    <div class="box_bottom">
-        <p id="chanagepassword">忘记密码？</p>
+    <div class="check">
+        <input id="code" placeholder="输入验证码">
+        <div class="getcode">获取验证码</div>
     </div>
-    <div class="box_submit">登录</div>
+
+    <input id="password1" placeholder="输入新密码">
+    <input id="password2" placeholder="再次输入密码">
+    <div class="box_submit">提交</div>
 </div>
 
 

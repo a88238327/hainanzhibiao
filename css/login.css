@@ -1,0 +1,165 @@
+.box{
+    margin: 60px auto;
+    display: block;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 10px #8c8a8873;
+    position: relative;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.box .box_header{
+    width: 100%;
+    font-size: 2em;
+    height: 45px;
+    line-height: 40px;
+    border-bottom: 1px black solid;
+    text-align: center;
+}
+.box .box_choose{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+
+}
+.box .box_choose .choose_left{
+    float: left;
+    width: 45%;
+    background-color: dodgerblue;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 3%;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.5;
+}
+.box .box_choose .choose_left img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 10px;
+}
+.box .box_choose .choose_left p{
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 40px;
+}
+.box .box_choose .choose_right{
+    float: right;
+    width: 45%;
+    background-color: dodgerblue;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 3%;
+    position: relative;
+    opacity: 0.5;
+}
+.box .box_choose .choose_right img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 10px;
+}
+.box .box_choose .choose_right p{
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 40px;
+}
+.box #phone{
+    width: 90%;
+    border: 2px dodgerblue solid;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.box #password{
+    width: 90%;
+    border: 2px dodgerblue solid;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.box .box_bottom{
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+    font-size: 1.1em;
+    overflow: hidden;
+    color: #fc8200;
+
+}
+.box .box_bottom #zhuce{
+    width: 50%;
+    text-align: center;
+    float: left;
+
+}
+.box .box_bottom #chanagepassword{
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+.box .box_submit{
+    background-color: #fc8200;
+    color: white;
+    font-size: 1.3em;
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+input{
+    width: 90%;
+    border: 2px dodgerblue solid;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.box .check{
+    width: 90%;
+    height: 30px;
+    margin: 10px auto;
+    display: block;
+    font-size: 1.2em;
+    overflow: hidden;
+    position: relative;
+}
+.box .check #code{
+    width: 69%;
+    border: 2px dodgerblue solid;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    float: left;
+    margin-top: 0;
+}
+.box .check .getcode{
+    width: 30%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    background-color: dodgerblue;
+    color: white;
+    float: right;
+    border-radius: 5px;
+}
