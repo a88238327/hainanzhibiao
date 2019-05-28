@@ -108,7 +108,7 @@
 
 }
 .box .box_bottom #chanagepassword{
-    width: 50%;
+    margin-top: 10px;
     text-align: center;
     float: right;
 }
@@ -162,4 +162,28 @@ input{
     color: white;
     float: right;
     border-radius: 5px;
+}
+.yanzhengma{
+    width: 90%;
+    height: 30px;
+    margin: 10px auto;
+    display: block;
+    font-size: 1.2em;
+    overflow: hidden;
+    position: relative;
+}
+.yanzhengma #picValidCode{
+    width: 69%;
+    border: 2px dodgerblue solid;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    float: left;
+    margin-top: 0;
+}
+.yanzhengma #code_img{
+    width: 28%;
+    height: 30px;
+    float: right;
 }
